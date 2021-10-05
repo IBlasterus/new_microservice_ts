@@ -1,0 +1,9 @@
+{
+  "log": "/var/log/<...>.log",
+  "port": 32000,
+  "auth": {
+    "login": "somelogin",
+    "password": "s0meStr0ngPa$$w0rd"
+  },
+  "debug": true
+}
