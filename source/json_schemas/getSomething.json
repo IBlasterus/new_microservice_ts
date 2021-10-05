@@ -1,0 +1,15 @@
+{
+  "description": "JSON-схема запроса Получить информацию о чём-то",
+  "type": "object",
+  "properties": {
+    "some_param": {
+      "description": "Какой-то параметр",
+      "type": "string",
+      "maxLength": 255
+    }
+  },
+  "required": [
+    "some_param"
+  ],
+  "additionalProperties": false
+}

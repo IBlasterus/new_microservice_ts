@@ -19,3 +19,13 @@ REST API использует POST-запросы и передаёт данны
 Модели и логика извлечения данных находится в папке `models`.  
 Схемы для валидации json-данных расположены в папке `public/json_schemas`.  
 Модуль логгера расположен в файле `public/logger.js`.  
+
+## Запуск микросервиса в PM2
+
+1. Установить ts-node глобально
+
+`sudo npm install -g ts-node`
+
+2. Запустить микросервис в PM2
+
+`pm2 --name <имя сервиса в PM2> start ts-node -- -P /path/to/project/tsconfig.json /path/to/project/source/server.ts`
